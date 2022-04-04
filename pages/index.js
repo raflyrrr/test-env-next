@@ -43,9 +43,9 @@ const IndexPage = () => (
             </td>
           </tr>
           <tr>
-            <td>NEXT_PUBLIC_DEVELOPMENT_ENV_VARIABLE</td>
+            <td>NEXT_PUBLIC_STAGGING_ENV_VARIABLE</td>
 
-            <td>{process.env.NEXT_PUBLIC_DEVELOPMENT_ENV_VARIABLE}</td>
+            <td>{process.env.NEXT_PUBLIC_STAGGING_ENV_VARIABLE}</td>
             <td>
               <Code>.env.development</Code>
             </td>
